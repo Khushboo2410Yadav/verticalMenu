@@ -1,0 +1,83 @@
+/* a:hover
+{
+    text-decoration: none;
+} */
+
+/* h1:hover a
+{
+    color: red;
+} */
+/* a
+{
+    display: none;
+} */
+/* div:hover a
+{
+    color: red;
+    text-decoration: none;
+} */
+/* div:hover a
+{
+    display: inline;
+} */
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(./Images/imgHigh.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+nav
+{
+    background-color:rgba(255, 228, 196, 0.572);
+    width: 10%;
+    height: 100vh;
+}
+#cont
+{
+    margin: 0;
+    padding: 0;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    padding: 20px ;
+    display: block;
+}
+a:hover
+{
+    background-color: rgba(8, 44, 107, 0.725);
+}
+/* #menu
+{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(255, 166, 0, 0.587);
+    position: relative;
+    display: none;
+} */
+
+#menu
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: rgba(255, 166, 0, 0.587);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+#drop
+{
+    position: relative;
+}
+
+#drop:hover  #menu
+{
+    display: block;
+}
